@@ -1,3 +1,8 @@
+/*
+* Ultrasonic Sensor Distance With i2c Liquid Crystal Display Arduino code
+* by Nexample,
+* https://youtu.be/CcEgdT0Y_n8
+*/
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27,20,4);
